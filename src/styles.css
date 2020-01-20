@@ -1,0 +1,119 @@
+.container {
+    width: 100%;
+    height: 100vh;
+    padding-top: 50px;
+    background-image: linear-gradient(-60deg, #fdd8a1 0%, #fbecc2 100%);
+  }
+  
+  .search-box{
+    margin: 0 auto;
+    width: 100%;
+  }
+  
+  .search-container .search-input {
+    outline: 0;
+    border: 0;
+    border-radius: 2px;
+    padding: 24px 14px;
+    font-size: 16px;
+    color: #404854;
+    box-shadow: 0px 0px 2px rgba(0, 71, 186, 0.2);
+    transition: all ease 0.2s;
+  }
+  
+  .search-container .search-input:focus {
+    box-shadow: 0px 0px 4px rgba(186, 136, 0, 0.8);
+  }
+  
+  .search-container .search-input:hover {
+    background-color: #fdfdfd;
+  }
+  
+  .search-container .search-list {
+    border: 0;
+    border-radius: 2px;
+    box-shadow: 0px 0px 4px rgba(186, 136, 0, 0.6);
+    top: 50px;
+  }
+  .search-box {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .custom-suggestions-box {
+    position: absolute;
+    padding: 10;
+    border: 1px solid #ddd;
+    background: white;
+    width: 100%;
+    overflow-y: scroll;
+    box-shadow: 0 2px 4px #d9d9d9;
+  }
+  
+  .search-box .custom-suggestions-box .custom-suggestions-container {
+    padding: 10px;
+  }
+  
+  .custom-suggestions-wrapper {
+    display: flex;
+  }
+  
+  .search-box .custom-suggestions-box .list-group .list-group-item {
+    padding: 10px;
+  }
+  
+  .search-box .custom-suggestions-box .list-group .popular-searches-title {
+    background: rgb(208, 220, 233);
+    padding: 10px 5px;
+  }
+  
+  li {
+    list-style-type: none;
+  }
+  
+  .search-box .custom-suggestions-box .popular-searches-title {
+    margin: 0;
+    background: rgb(208, 220, 233);
+    padding: 10px 5px;
+    font-weight: bold;
+  }
+  
+  .search-box .search-container {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .search-box .search-container .search-input {
+    border: 1px solid #ececec;
+    box-shadow: none;
+  }
+  
+  .search-box .search-container .search-list {
+    box-shadow: none;
+    border: 1px solid #ececec;
+  }
+  
+  .result-list-container {
+    padding: 20px;
+  }
+  
+  .result-list-item h2 {
+    color: #292b2d;
+    font-size: 1.3em;
+  }
+  
+  .result-list-item div {
+    color: #404854;
+  }
+  
+  .result-card-item {
+    height: auto !important;
+  }
+  
+  .result-card-item h2,
+  .result-card-item article {
+    display: none !important;
+  }
+  
