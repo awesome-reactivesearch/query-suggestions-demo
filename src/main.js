@@ -75,7 +75,7 @@ class Results extends React.Component {
 						)}
 					/>
 					<div>
-						Source Code on <a href="https://github.com/">GitHub</a> - Powered by <a href="https://appbase.io/">Appbase</a>
+						Source Code on <a href="https://github.com/appbaseio-apps/query-suggestions-demo">GitHub</a> - Powered by <a href="https://appbase.io/">Appbase</a>
 					</div>
 				</div>
 				
