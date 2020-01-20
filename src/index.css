@@ -142,6 +142,11 @@ body {
 	margin-left: 0;
 }
 
+.newanchor {
+	text-decoration: none; 
+	color: rgb(0, 119, 255);
+}
+
 .col .meetup-list-image {
 	background-size: cover;
 }
