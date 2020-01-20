@@ -1,6 +1,6 @@
 ## Query-Suggestions-Demo App
 
-![](https://i.imgur.com/VFmaXeQ.png)
+![](https://i.imgur.com/n3JKjOj.png)
 
 This app demos the use of [Query Suggestions](https://docs.appbase.io/docs/analytics/QuerySuggestions/) as well as [ReactiveSearch](https://opensource.appbase.io/reactivesearch) for building a search UI.
 
