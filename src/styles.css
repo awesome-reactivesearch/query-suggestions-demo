@@ -60,8 +60,14 @@
     display: flex;
   }
   
+  .custom-suggestions-wrapper:hover{
+    background: #eee !important;
+
+  }
   .search-box .custom-suggestions-box .list-group .list-group-item {
     padding: 10px;
+    display: flex;
+    align-items: center;
   }
   
   .search-box .custom-suggestions-box .list-group .popular-searches-title {

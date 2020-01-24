@@ -4,7 +4,7 @@
 	"description": "DataSearch example for ReactiveSearch",
 	"license": "Apache-2.0",
 	"dependencies": {
-		"@appbaseio/reactivesearch": "^3.0.0-rc.4",
+		"@appbaseio/reactivesearch": "3.0.0",
 		"marketplace-footer": "^0.0.7",
 		"react": "^16.12.0",
 		"react-dom": "^16.6.3",

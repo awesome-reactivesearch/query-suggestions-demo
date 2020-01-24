@@ -144,15 +144,6 @@ class Search extends React.Component {
       value,
       downshiftProps: { isOpen, getItemProps, highlightedIndex }
     }) => {
-      if (loading) {
-        return (
-          <div className="custom-suggestions-box">
-            <div className="custom-suggestions-container">
-              Loading...
-            </div>
-          </div>
-        );
-      }
       if (error) {
         return (
           <div className="custom-suggestions-box">
