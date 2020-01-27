@@ -54,6 +54,7 @@
   
   .search-box .custom-suggestions-box .custom-suggestions-container {
     padding: 10px;
+    width:100%;
   }
   
   .custom-suggestions-wrapper {
