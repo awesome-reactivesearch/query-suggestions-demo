@@ -1,5 +1,5 @@
 import React from "react";
-import { HashRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { ReactiveBase } from "@appbaseio/reactivesearch";
 import "marketplace-footer/build/static/css/index.css";
 
