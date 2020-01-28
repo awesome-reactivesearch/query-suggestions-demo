@@ -16,6 +16,21 @@ body {
 	padding: 15px;
 }
 
+.row .col .banner {
+	border-style: solid;
+  	border-color: black;
+  	border-radius: 15px;
+	width: 100%;
+	background-color:whitesmoke;
+	margin-bottom: 20px;
+	text-align: center;
+	padding: 10px;
+}
+
+.row .col .banner .bannertext {
+	margin: 10px;
+}
+
 .row>.col:first-child {
 	border-right: 1px solid;
 	max-width: 400px;

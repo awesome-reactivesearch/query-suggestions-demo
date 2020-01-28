@@ -26,8 +26,19 @@ class Results extends React.Component {
 
 	render() {
 		return (
+
+
 			<div className="row">
 				<div className="col">
+
+				<header>
+                    <div className="banner">
+					This app makes use of the query suggestions feature of appbase.io. In addition to searching on the products, it also creates a suggestions index based on how users search and shows relevant suggestions in the search bar as you type based on that. 
+					Read the blog post to learn more <a class="newanchor" href="https://medium.appbase.io/query-suggestions-and-its-uses-42f23ce39e2c">here</a> .
+					</div>
+                </header>
+
+
 					<Search id="Movie" />
 
 					<ReactiveList
