@@ -17,11 +17,10 @@ body {
 }
 
 .row .col .banner {
-	border-style: solid;
-  	border-color: black;
   	border-radius: 15px;
 	width: 100%;
-	background-color:whitesmoke;
+	border: 1px solid #ececec;
+    background: rgb(250, 250, 250);
 	margin-bottom: 20px;
 	text-align: center;
 	padding: 10px;
