@@ -34,7 +34,7 @@ class Results extends React.Component {
 				<header>
                     <div className="banner">
 					This app makes use of the query suggestions feature of appbase.io. In addition to searching on the products, it also creates a suggestions index based on how users search and shows relevant suggestions in the search bar as you type based on that. 
-					Read the <a class="newanchor" href="https://medium.appbase.io/query-suggestions-and-its-uses-42f23ce39e2c">blog post</a> to learn more .
+					Read the <a class="newanchor" href="https://medium.appbase.io/query-suggestions-and-its-uses-42f23ce39e2c">blog post</a> to learn more.
 					</div>
                 </header>
 
