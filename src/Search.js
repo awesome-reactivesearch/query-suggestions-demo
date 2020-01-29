@@ -46,7 +46,6 @@ class Search extends React.Component {
       .then(res => res.json())
       .then(
         result => {
-          console.log("result", result.hits.hits);
           var src = result.hits.hits;
           var arr = [];
           for (var i = 0; i < src.length; i++) {
@@ -120,7 +119,6 @@ class Search extends React.Component {
       .then(res => res.json())
       .then(
         result => {
-          console.log("result", result.hits.hits);
           var src = result.hits.hits;
           var arr = [];
           for (var i = 0; i < src.length; i++) {

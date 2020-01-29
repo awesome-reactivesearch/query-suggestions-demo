@@ -17,7 +17,6 @@ class Results extends React.Component {
 	}
 
 	showFooter = ({data}) => {
-		console.log(data)
 		if(!data || !data.length) {
 			return this.setState({ showFooter: false})
 		}

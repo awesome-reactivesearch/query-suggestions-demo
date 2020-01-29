@@ -19,7 +19,7 @@ body {
 .row .col .banner {
   	border-radius: 15px;
 	width: 100%;
-	border: 1px solid #ececec;
+	border: 2px solid #ececec;
     background: rgb(250, 250, 250);
 	margin-bottom: 20px;
 	text-align: center;
