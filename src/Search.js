@@ -136,7 +136,6 @@ class Search extends React.Component {
 
   renderCustomSuggestions() {
     return ({
-      loading,
       error,
       data,
       value,
@@ -228,7 +227,7 @@ class Search extends React.Component {
   };
 
   render() {
-    const { id, history } = this.props;
+    const { history } = this.props;
     return (
         <div className="search-box">
         <DataSearch
