@@ -15,7 +15,7 @@ const App = () => (
     >
       <Router>
         <Switch>
-          <Route exact path="/" component={Results} />
+          <Route path="/" component={Results} />
         </Switch>
       </Router>
     </ReactiveBase>
