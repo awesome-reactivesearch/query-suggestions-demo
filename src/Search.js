@@ -22,7 +22,8 @@ class Search extends React.Component {
   }
 
   getDefaultSeuggestions() {
-    let arcClusterUrl = "https://arc-cluster-dc-test-2-b5c555.searchbase.io";
+    let arcClusterUrl =
+      "https://arc-cluster-appbase-demo-ps1pgt.searchbase.io";
     var headers = new Headers();
     const data = {
       query: {
@@ -33,8 +34,7 @@ class Search extends React.Component {
 
     headers.append(
       "Authorization",
-      "Basic " +
-      btoa("7CmMBPU4o" + ":" + "4ac08f4e-f8aa-4481-9257-bb5444964366")
+      "Basic " + btoa("xe6N9nDRV:51ea7a8a-6354-4b5f-83e1-12dce3b7ec47")
     );
     headers.append("Content-Type", "application/json");
 
@@ -102,12 +102,12 @@ class Search extends React.Component {
       size: 3
     };
 
-    let arcClusterUrl = "https://arc-cluster-dc-test-2-b5c555.searchbase.io";
+    let arcClusterUrl =
+      "https://arc-cluster-appbase-demo-ps1pgt.searchbase.io";
 
     headers.append(
       "Authorization",
-      "Basic " +
-      btoa("7CmMBPU4o" + ":" + "4ac08f4e-f8aa-4481-9257-bb5444964366")
+      "Basic " + btoa("xe6N9nDRV:51ea7a8a-6354-4b5f-83e1-12dce3b7ec47")
     );
     headers.append("Content-Type", "application/json");
 
@@ -141,7 +141,7 @@ class Search extends React.Component {
       value,
       downshiftProps: { isOpen, getItemProps, highlightedIndex }
     }) => {
-      if (error) {
+      if (isOpen && error) {
         return (
           <div className="custom-suggestions-box">
             <div className="custom-suggestions-container">
@@ -229,12 +229,17 @@ class Search extends React.Component {
   render() {
     const { history } = this.props;
     return (
-        <div className="search-box">
+      <div className="search-box">
         <DataSearch
           componentId="Movie"
-          title="Movie Search Engine"
-          dataField={["original_title", "original_title.search","tagline","tagline.search"]}
-          fields ={[4,2,3,1]}
+          title="Appbase.io: Query Suggestions Demo"
+          dataField={[
+            "original_title",
+            "original_title.search",
+            "tagline",
+            "tagline.search"
+          ]}
+          fields={[4, 2, 3, 1]}
           autosuggest={true}
           placeholder="Search Movie"
           className="search-container"
